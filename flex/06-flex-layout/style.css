@@ -31,17 +31,17 @@ input {
 body{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .content{
+  flex:1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .header, .footer{
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 16px;
 }
 .footer{
@@ -50,10 +50,11 @@ body{
 .left-links, .right-links{
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 a{  
   text-decoration: none;
-  color: #333
+  color: #666
 }
 
 ul{
@@ -62,5 +63,5 @@ ul{
   margin: 0;
 }
 .buttons button{
-  padding: 8px;
+  padding: 8px 16px;
 }
