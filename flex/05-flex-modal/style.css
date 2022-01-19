@@ -78,13 +78,14 @@ button.cancel {
 .header{
   font-weight: bold;
   font-size: 18px;
+  margin-bottom: 8px;
 }
 .close-button{
   margin-left: auto;
   
 }
 .text {
-  margin: 8px 0px;
+  margin-bottom: 16px;
 }
 .in-title {
   display: flex;
